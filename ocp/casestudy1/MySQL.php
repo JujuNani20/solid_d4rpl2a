@@ -1,9 +1,9 @@
 <?php
 
-class MongoDB implements DBMS
+class MySQL implements DBMS
 {
     public function connect(): void
     {
-        echo "Connecting to MongoDB database...\n";
+        echo "Connecting to MySQL database...\n";
     }
 }
