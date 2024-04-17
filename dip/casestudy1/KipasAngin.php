@@ -6,10 +6,10 @@ class KipasAngin implements BarangElektronik
 {
     public function beroperasi(): void
     {
-        echo "Kipas Angin Menyala... \n";
+        echo "Kipas Angin itu Menyala........ \n";
     }
     public function berhenti(): void
     {
-        echo "Kipas Angin Berhenti Menyala... \n";
+        echo "Kipas Angin itu Berhenti Menyala........ \n";
     }
 }
